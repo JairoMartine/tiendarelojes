@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 
+/* Por debajo de 400px */
+@media screen and (max-width: 400px){
+    .texto-responsive {
+        font-size: 1em;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +14,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    font-size: 1em;
+    font-size: 100%;
     color: #707070;
     text-align: center;
 }
@@ -36,6 +43,11 @@ h3 {
 
 a:hover {
     color: #6984E6;
+}
+
+video{
+    width: 100%;
+    height: auto;
 }
 
 /******************************************/
@@ -76,6 +88,8 @@ a:hover {
     padding-top: 3em;
     padding-bottom: 3em;
 }
+
+
 
 /******************************************/
 /* Estilos de pie                         */
